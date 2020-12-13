@@ -1,0 +1,4 @@
+No	Intent	Utterance Count	Utterance Average Length	Utterance Maximum Length	Utterance Minimum Length	Utterance Length StdDev
+0	l_HikingOrClimbingNearby	13	19.07692	28	13	4.53618
+1	q_HikingFAQ	2	28	32	24	5.65685
+ 	__ALL__	15	20.26667	32	13	5.45719

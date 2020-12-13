@@ -1,0 +1,4 @@
+Label	Weight	Text
+l_HikingOrClimbingNearby	1	climbing close to
+l_HikingOrClimbingNearby	1	hiking trails close to
+l_HikingOrClimbingNearby	1	climbs near me

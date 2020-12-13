@@ -1,0 +1,20 @@
+{
+  "qnaDocuments": [
+    {
+      "id": 1,
+      "answer": "[Footwear](https://www.rei.com/c/hiking-footwear) is one of the most important items you need to choose, and it’s a very personal choice. Some hikers prefer supportive over-the-ankle boots, while others enjoy lightweight [trail-running shoes](https://www.rei.com/c/trail-running-shoes). The terrain you’ll be walking on can also affect your decision. Lightweight, low-cut [hiking shoes](https://www.rei.com/c/hiking-shoes) may be fine on well-maintained trails without a lot of obstacles, whereas [sturdy boots](https://www.rei.com/c/hiking-boots) may serve you better on a rugged trail with rocks, roots and streams.",
+      "source": "Editorial",
+      "questions": [
+        "What shoes should I wear to hike?",
+        "Good footwear for hiking"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      },
+      "lastUpdatedTimestamp": "2020-12-13T19:20:53.052+00:00"
+    }
+  ]
+}

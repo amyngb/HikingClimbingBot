@@ -1,0 +1,13 @@
+Label	Weight	Text
+l_HikingOrClimbingNearby	1	backpacking nearby
+l_HikingOrClimbingNearby	1	rockclimbing nearby
+l_HikingOrClimbingNearby	1	hiking close to
+l_HikingOrClimbingNearby	1	where is nearby rockclimbing
+l_HikingOrClimbingNearby	1	where is a close climb
+l_HikingOrClimbingNearby	1	where is a hike near
+l_HikingOrClimbingNearby	1	hikes near me
+l_HikingOrClimbingNearby	1	where is a trail near
+l_HikingOrClimbingNearby	1	trails near me
+l_HikingOrClimbingNearby	1	rock climbing cliffs near
+q_HikingFAQ	1	What shoes should I wear to hike
+q_HikingFAQ	1	Good footwear for hiking

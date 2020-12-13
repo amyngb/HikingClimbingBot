@@ -1,0 +1,4 @@
+Label	Weight	Text
+l_HikingOrClimbingNearby	1	where is nearby rockclimbing
+l_HikingOrClimbingNearby	1	where is a close climb
+l_HikingOrClimbingNearby	1	where is a hike near

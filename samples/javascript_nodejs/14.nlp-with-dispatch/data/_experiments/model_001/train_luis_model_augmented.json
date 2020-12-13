@@ -1,0 +1,113 @@
+﻿{
+  "luis_schema_version": "7.0.0",
+  "intents": [
+    {
+      "name": "l_HikingOrClimbingNearby"
+    },
+    {
+      "name": "q_HikingFAQ"
+    }
+  ],
+  "entities": [],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [],
+  "prebuiltEntities": [],
+  "utterances": [
+    {
+      "text": "backpacking nearby",
+      "intent": "l_HikingOrClimbingNearby",
+      "entities": []
+    },
+    {
+      "text": "rockclimbing nearby",
+      "intent": "l_HikingOrClimbingNearby",
+      "entities": []
+    },
+    {
+      "text": "hiking close to",
+      "intent": "l_HikingOrClimbingNearby",
+      "entities": []
+    },
+    {
+      "text": "climbing close to",
+      "intent": "l_HikingOrClimbingNearby",
+      "entities": []
+    },
+    {
+      "text": "hiking trails close to",
+      "intent": "l_HikingOrClimbingNearby",
+      "entities": []
+    },
+    {
+      "text": "climbs near me",
+      "intent": "l_HikingOrClimbingNearby",
+      "entities": []
+    },
+    {
+      "text": "where is nearby rockclimbing",
+      "intent": "l_HikingOrClimbingNearby",
+      "entities": []
+    },
+    {
+      "text": "where is a close climb",
+      "intent": "l_HikingOrClimbingNearby",
+      "entities": []
+    },
+    {
+      "text": "where is a hike near",
+      "intent": "l_HikingOrClimbingNearby",
+      "entities": []
+    },
+    {
+      "text": "hikes near me",
+      "intent": "l_HikingOrClimbingNearby",
+      "entities": []
+    },
+    {
+      "text": "where is a trail near",
+      "intent": "l_HikingOrClimbingNearby",
+      "entities": []
+    },
+    {
+      "text": "trails near me",
+      "intent": "l_HikingOrClimbingNearby",
+      "entities": []
+    },
+    {
+      "text": "rock climbing cliffs near",
+      "intent": "l_HikingOrClimbingNearby",
+      "entities": []
+    },
+    {
+      "text": "what shoes should i wear to hike",
+      "intent": "q_HikingFAQ",
+      "entities": []
+    },
+    {
+      "text": "good footwear for hiking",
+      "intent": "q_HikingFAQ",
+      "entities": []
+    }
+  ],
+  "versionId": "Dispatch",
+  "name": "HikeClimbBot",
+  "desc": "Dispatch model for HikeClimbBot",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [],
+  "regex_features": [],
+  "patterns": [],
+  "settings": [
+    {
+      "name": "NormalizeDiacritics",
+      "value": "true"
+    },
+    {
+      "name": "UseAllTrainingData",
+      "value": "true"
+    }
+  ]
+}

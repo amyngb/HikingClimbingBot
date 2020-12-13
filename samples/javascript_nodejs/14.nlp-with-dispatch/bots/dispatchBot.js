@@ -60,14 +60,11 @@ class DispatchBot extends ActivityHandler {
 
     async dispatchToTopIntentAsync(context, intent, recognizerResult) {
         switch (intent) {
-        case 'l_HomeAutomation':
-            await this.processHomeAutomation(context, recognizerResult.luisResult);
+        case 'l_HikingOrClimbingNearby':
+            await this.processHikingOrClimbingNearby(context, recognizerResult.luisResult);
             break;
-        case 'l_Weather':
-            await this.processWeather(context, recognizerResult.luisResult);
-            break;
-        case 'q_sample-qna':
-            await this.processSampleQnA(context);
+        case 'q_HikingFAQ':
+            await this.processHikingFAQ(context);
             break;
         default:
             console.log(`Dispatch unrecognized intent: ${ intent }.`);
@@ -76,38 +73,23 @@ class DispatchBot extends ActivityHandler {
         }
     }
 
-    async processHomeAutomation(context, luisResult) {
-        console.log('processHomeAutomation');
+    async processHikingOrClimbingNearby(context, luisResult) {
+        console.log('processHikingOrClimbingNearby');
 
         // Retrieve LUIS result for Process Automation.
         const result = luisResult.connectedServiceResult;
         const intent = result.topScoringIntent.intent;
 
-        await context.sendActivity(`HomeAutomation top intent ${ intent }.`);
-        await context.sendActivity(`HomeAutomation intents detected:  ${ luisResult.intents.map((intentObj) => intentObj.intent).join('\n\n') }.`);
+        await context.sendActivity(`HikingOrClimbingNearby top intent ${ intent }.`);
+        await context.sendActivity(`HikingOrClimbingNearby intents detected:  ${ luisResult.intents.map((intentObj) => intentObj.intent).join('\n\n') }.`);
 
         if (luisResult.entities.length > 0) {
-            await context.sendActivity(`HomeAutomation entities were found in the message: ${ luisResult.entities.map((entityObj) => entityObj.entity).join('\n\n') }.`);
+            await context.sendActivity(`HikingOrClimbingNearby entities were found in the message: ${ luisResult.entities.map((entityObj) => entityObj.entity).join('\n\n') }.`);
         }
     }
 
-    async processWeather(context, luisResult) {
-        console.log('processWeather');
-
-        // Retrieve LUIS results for Weather.
-        const result = luisResult.connectedServiceResult;
-        const topIntent = result.topScoringIntent.intent;
-
-        await context.sendActivity(`ProcessWeather top intent ${ topIntent }.`);
-        await context.sendActivity(`ProcessWeather intents detected:  ${ luisResult.intents.map((intentObj) => intentObj.intent).join('\n\n') }.`);
-
-        if (luisResult.entities.length > 0) {
-            await context.sendActivity(`ProcessWeather entities were found in the message: ${ luisResult.entities.map((entityObj) => entityObj.entity).join('\n\n') }.`);
-        }
-    }
-
-    async processSampleQnA(context) {
-        console.log('processSampleQnA');
+    async processHikingFAQ(context) {
+        console.log('processHikingFAQ');
 
         const results = await this.qnaMaker.getAnswers(context);
 

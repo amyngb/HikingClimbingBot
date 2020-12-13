@@ -1,0 +1,100 @@
+{
+  "luis_schema_version": "7.0.0",
+  "intents": [
+    {
+      "name": "Climbing nearby",
+      "features": []
+    },
+    {
+      "name": "Hiking nearby",
+      "features": []
+    },
+    {
+      "name": "None",
+      "features": []
+    }
+  ],
+  "entities": [],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [],
+  "prebuiltEntities": [],
+  "utterances": [
+    {
+      "text": "backpacking nearby",
+      "intent": "Hiking nearby",
+      "entities": []
+    },
+    {
+      "text": "climbing close to",
+      "intent": "Climbing nearby",
+      "entities": []
+    },
+    {
+      "text": "climbs near me",
+      "intent": "Climbing nearby",
+      "entities": []
+    },
+    {
+      "text": "hikes near me",
+      "intent": "Hiking nearby",
+      "entities": []
+    },
+    {
+      "text": "hiking close to",
+      "intent": "Hiking nearby",
+      "entities": []
+    },
+    {
+      "text": "hiking trails close to",
+      "intent": "Hiking nearby",
+      "entities": []
+    },
+    {
+      "text": "rock climbing cliffs near",
+      "intent": "Climbing nearby",
+      "entities": []
+    },
+    {
+      "text": "rockclimbing nearby",
+      "intent": "Climbing nearby",
+      "entities": []
+    },
+    {
+      "text": "trails near me",
+      "intent": "Hiking nearby",
+      "entities": []
+    },
+    {
+      "text": "where is a close climb",
+      "intent": "Climbing nearby",
+      "entities": []
+    },
+    {
+      "text": "where is a hike near",
+      "intent": "Hiking nearby",
+      "entities": []
+    },
+    {
+      "text": "where is a trail near",
+      "intent": "Hiking nearby",
+      "entities": []
+    },
+    {
+      "text": "where is nearby rockclimbing",
+      "intent": "Climbing nearby",
+      "entities": []
+    }
+  ],
+  "versionId": "0.1",
+  "name": "HikingClimbingNearby",
+  "desc": "Find nearby climbs",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [],
+  "regex_features": [],
+  "patterns": [],
+  "settings": []
+}
