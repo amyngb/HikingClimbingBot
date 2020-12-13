@@ -17,6 +17,7 @@
 
 # JS/ TS/ es6 env files
 /*/*.env
+.env
 
 # Ignore output from nyc
 /**/.nyc_output
